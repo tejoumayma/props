@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 const Profile = (props) => {
-  const { fullName, bio, profession, children } = props;
-  const showfullName = (fullName) => alert(`fullname: ${fullName}`);
-  const handleClick = (e) => showfullName(fullName);
+  const { fullName, bio, profession, children, handleName } = props;
+  const handleClick = (e) => handleName(fullName);
   return (
     <div
       style={{
