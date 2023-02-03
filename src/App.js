@@ -18,7 +18,7 @@ function App() {
         profession={profile.profession}
         handleName={handleName}
       >
-        <img src={profile.pic} alt="" srcset="" />
+        <img src={profile.pic} alt="" />
       </Profile>
     </div>
   );

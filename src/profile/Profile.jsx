@@ -64,6 +64,11 @@ Profile.defaultProps = {
   profession: "default profession",
   bio: " default bio",
 };
-Profile.propTypes = { profil: PropTypes.string.isRequired };
+Profile.propTypes = {
+  fullName: PropTypes.string.isRequired,
+  profession: PropTypes.string.isRequired,
+  bio: PropTypes.string.isRequired,
+  handleName: PropTypes.func.isRequired,
+};
 
 export default Profile;
